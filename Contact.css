@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    background: url(image/bacckground.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.main .navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main .navbar h1{
+    color: rgb(149, 175, 198);
+}
+ul{
+    margin-top: 5px;
+}
+ul  li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(164, 174, 174);
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: rgb(213, 225, 225);
+}
+
+
+
+.container {
+    max-width: 400px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.container h1{
+    text-align: center;
+    color: #D3D3D3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+    color: #c3c2c2;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    /* border: none; */
+    /* background-color: #333; */
+    /* color: #fff; */
+    cursor: pointer;
+
+    text-decoration: none;
+    /* margin: 26px 0; */
+    padding: 10px 18px;
+    border-radius: 10px;
+    /* display: inline-block; */
+    background-color: rgb(31, 28, 28);
+    color: rgb(187, 194, 200);
+    transition: 0.4s ease;
+}
+
+form button:hover {
+    background-color: #555;
+}
